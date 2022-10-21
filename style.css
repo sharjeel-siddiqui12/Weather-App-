@@ -1,0 +1,71 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: monospace;
+}
+
+#back_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heading {
+    text-align: center;
+
+}
+
+#main {
+    display: none;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#main>div {
+
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+}
+
+form>label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+form input {
+    padding: 10px;
+    width: 350px;
+    border: 1px solid black;
+}
+
+input:focus {
+    border: 2px solid black;
+}
+
+button {
+    background: none;
+    width: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
